@@ -1,0 +1,15 @@
+current directory: /Users/myac21/ruby_app/rspec_tutorial/environment/main_rspec_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
+/Users/myac21/.rbenv/versions/2.7.5/bin/ruby -I /Users/myac21/.rbenv/versions/2.7.5/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220903-14308-14nxnkh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/myac21/ruby_app/rspec_tutorial/environment/main_rspec_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/myac21/ruby_app/rspec_tutorial/environment/main_rspec_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/myac21/ruby_app/rspec_tutorial/environment/main_rspec_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220903-14308-2g93mg/bootsnap
