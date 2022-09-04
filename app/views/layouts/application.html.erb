@@ -9,7 +9,19 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+<%
+=begin%>
+ /*  'layouts/header'は
+ app/views/layouts/_header.html.erbというファイルを探してその内容を評価し、結果をビューに挿入しています */ 
+<%
+=end%>
   <body>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
+
