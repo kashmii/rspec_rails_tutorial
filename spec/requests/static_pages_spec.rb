@@ -12,7 +12,7 @@ let(:base_title) { 'Ruby on Rails Tutorial Sample App' }
     
     it 'Home | Ruby on Rails Tutorial Sample Appが含まれること' do
       get root_path
-      expect(response.body).to include "Home | #{base_title}"
+      expect(response.body).to include "<title>#{base_title}</title>"
     end
   end
   
